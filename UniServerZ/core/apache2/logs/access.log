@@ -224,3 +224,5 @@
 ::1 - - [14/May/2024:14:20:16 -0700] "GET /engine/img/o/b_l.png HTTP/1.1" 304 - "http://localhost/characterprofile.php?name=Newdruid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 ::1 - - [14/May/2024:14:20:16 -0700] "GET /engine/img/o/b_r.png HTTP/1.1" 304 - "http://localhost/characterprofile.php?name=Newdruid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 ::1 - - [14/May/2024:14:20:16 -0700] "GET /engine/img/o/b_m.png HTTP/1.1" 304 - "http://localhost/characterprofile.php?name=Newdruid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+::1 - - [14/May/2024:14:42:20 -0700] "GET /us_splash/index.php HTTP/1.1" 200 1500 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+::1 - - [14/May/2024:14:42:20 -0700] "GET /index.php HTTP/1.1" 200 2424 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"

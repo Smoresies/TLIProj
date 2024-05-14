@@ -148,3 +148,11 @@
 2024-05-14T21:42:18.281864Z 0 [System] [MY-015015] [Server] MySQL Server - start.
 2024-05-14T21:42:18.398649Z 0 [System] [MY-010116] [Server] C:\TavernlightInterview\TLIProj\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.2.0) starting as process 6700
 2024-05-14T21:42:18.416346Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-14T21:42:18.639131Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-14T21:42:19.059654Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-14T21:42:19.060059Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-14T21:42:19.099211Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-14T21:42:19.099346Z 0 [System] [MY-010931] [Server] C:\TavernlightInterview\TLIProj\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-14T21:42:20.685665Z 8 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T21:42:29.973072Z 10 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T21:42:29.980510Z 11 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
