@@ -1,0 +1,150 @@
+2024-05-14T02:19:46.235100Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-14T02:19:46.287822Z 0 [System] [MY-010116] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.2.0) starting as process 24320
+2024-05-14T02:19:46.318403Z 0 [Warning] [MY-010075] [Server] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 6ec99a62-1198-11ef-90bc-f02f74ca7da0.
+2024-05-14T02:19:46.328319Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-14T02:19:47.137920Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-14T02:19:47.945626Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-14T02:19:47.946509Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-14T02:19:48.101679Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-14T02:19:48.101803Z 0 [System] [MY-010931] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-14T02:20:25.381630Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-14T02:20:25.524809Z 0 [System] [MY-010116] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.2.0) starting as process 31804
+2024-05-14T02:20:25.550216Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-14T02:20:26.397378Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-14T02:20:26.618094Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-05-14T02:20:26.620967Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-05-14T02:20:26.677686Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-14T02:20:26.678073Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-14T02:20:26.713366Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-14T02:20:26.713498Z 0 [System] [MY-010931] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-14T02:21:15.721155Z 73 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:21:15.865793Z 75 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:21:21.419918Z 77 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:21:21.560405Z 79 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:21:21.643499Z 81 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:21:21.703810Z 83 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:21:23.410201Z 85 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:21:23.950959Z 87 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:21:24.105836Z 89 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:22:34.422665Z 90 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:23:26.932206Z 91 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:23:46.785234Z 92 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:24:13.280015Z 94 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:24:13.484914Z 96 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:24:44.386186Z 98 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:24:45.848101Z 100 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:24:45.928936Z 102 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:24:46.031475Z 104 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:24:46.179016Z 106 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:24:49.234723Z 107 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:25:06.900898Z 108 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:25:24.470853Z 109 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:25:24.494411Z 110 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:25:26.320238Z 111 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:25:26.332429Z 112 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:25:33.392945Z 113 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:25:36.265950Z 114 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:25:36.278233Z 115 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:25:38.013559Z 116 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:25:42.946902Z 117 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:25:42.961602Z 118 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:25:45.973669Z 119 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:25:50.252456Z 120 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:25:50.278143Z 121 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:26:16.684464Z 122 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:28:28.816057Z 123 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:28:28.820935Z 124 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:31:50.687314Z 125 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:34:24.355722Z 126 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:34:32.660833Z 127 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:34:32.685167Z 128 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:34:49.300657Z 129 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:35:01.711168Z 130 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:39:27.580590Z 131 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:39:43.378929Z 132 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:41:57.107439Z 134 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:41:57.467249Z 136 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:41:57.539899Z 138 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:41:57.627518Z 140 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:41:57.725738Z 142 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:41:57.806367Z 144 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:41:57.871967Z 146 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:41:58.871775Z 148 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:41:59.248565Z 150 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:41:59.332345Z 152 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:41:59.426841Z 154 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:42:02.911943Z 156 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:42:03.333037Z 158 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:42:12.620298Z 160 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:42:12.976517Z 162 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:42:22.637949Z 164 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:42:22.891303Z 166 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:43:55.922236Z 168 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:43:56.212371Z 170 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:45:33.217069Z 172 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:45:36.699937Z 174 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:47:59.710040Z 175 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:47:59.711053Z 175 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-05-14T02:47:59.711878Z 0 [System] [MY-013105] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe: Normal shutdown.
+2024-05-14T02:48:01.716912Z 0 [Warning] [MY-010909] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe: Forcing close of thread 123  user: 'root'.
+2024-05-14T02:48:01.717675Z 0 [Warning] [MY-010909] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe: Forcing close of thread 124  user: 'root'.
+2024-05-14T02:48:02.098593Z 0 [System] [MY-010910] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-05-14T02:48:02.099893Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-14T02:48:12.879476Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-14T02:48:13.006573Z 0 [System] [MY-010116] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.2.0) starting as process 13784
+2024-05-14T02:48:13.025640Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-14T02:48:13.222986Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-14T02:48:13.612492Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-14T02:48:13.612871Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-14T02:48:13.648623Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-14T02:48:13.648742Z 0 [System] [MY-010931] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-14T02:48:13.650995Z 8 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:48:13.946542Z 9 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:48:16.071823Z 11 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:48:16.072807Z 11 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-05-14T02:48:16.073334Z 0 [System] [MY-013105] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe: Normal shutdown.
+2024-05-14T02:48:18.664471Z 0 [System] [MY-010910] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-05-14T02:48:18.665712Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-14T02:48:21.292416Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-14T02:48:21.411098Z 0 [System] [MY-010116] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.2.0) starting as process 28396
+2024-05-14T02:48:21.437784Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-14T02:48:21.614266Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-14T02:48:21.999241Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-14T02:48:21.999635Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-14T02:48:22.035559Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-14T02:48:22.035685Z 0 [System] [MY-010931] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-14T02:48:26.047070Z 8 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T02:48:26.048154Z 8 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-05-14T02:48:26.048666Z 0 [System] [MY-013105] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe: Normal shutdown.
+2024-05-14T02:48:27.042782Z 0 [System] [MY-010910] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-05-14T02:48:27.044197Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-14T20:59:26.986269Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-14T20:59:27.098947Z 0 [System] [MY-010116] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.2.0) starting as process 23180
+2024-05-14T20:59:27.139339Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-14T20:59:27.590978Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-14T20:59:28.015347Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-14T20:59:28.015764Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-14T20:59:28.060612Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-14T20:59:28.060733Z 0 [System] [MY-010931] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-14T20:59:28.189962Z 8 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T20:59:32.247073Z 10 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T20:59:47.774226Z 11 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T20:59:47.791069Z 12 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T21:07:44.152259Z 13 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T21:07:44.156590Z 14 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T21:18:59.381566Z 15 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T21:19:02.462777Z 16 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T21:19:15.346576Z 17 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T21:19:15.371979Z 18 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T21:19:34.283054Z 19 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T21:19:34.287356Z 20 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T21:20:16.508723Z 21 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T21:40:36.908018Z 23 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T21:40:37.850537Z 24 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-05-14T21:40:37.851548Z 24 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-05-14T21:40:37.852100Z 0 [System] [MY-013105] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe: Normal shutdown.
+2024-05-14T21:40:38.299011Z 0 [System] [MY-010910] [Server] C:\TavernlightInterview\UniServerZ\core\mysql\bin\mysqld_z.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-05-14T21:40:38.300307Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-14T21:42:18.281864Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-14T21:42:18.398649Z 0 [System] [MY-010116] [Server] C:\TavernlightInterview\TLIProj\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.2.0) starting as process 6700
+2024-05-14T21:42:18.416346Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
