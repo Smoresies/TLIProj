@@ -1,0 +1,114 @@
+Q1:
+
+-- function that appears to release the storage at a specific location in memory for the player player argument.
+-- Added additional parameter to specify location to release, for more generic usage.
+local function releaseStorage(player, sVal)
+    -- setting to -1 is same as releasing memory in this case, as -1 is default value of memory location
+    -- Check to ensure that sVal parameter is not nil, if it is then release default location instead
+    if sVal then
+        player:setStorageValue(sVal, -1)
+    else
+        player:setStorageValue(1000, -1)
+    end
+end
+
+-- function to call upon logout, to free players used memory.
+function onLogout(player)
+    -- previously was == 1, which would work if there was the value of 1 stored at slot 1000.
+    -- Instead now checks to see if slot 1000 has any memory stored (is not -1) in case any other value was stored there.
+    if player:getStorageValue(1000) ~= -1 then
+        -- Could lower the first 1000 from addEvent due to no obvious need for a delay
+        -- Could also remove addEvent and just call releaseStorage directly (or even just player:setStorageValue(1000, -1))
+        -- Leaving here for now due to lack of knowledge for why the event might need to be delayed 
+        -- (could be due to logout synchronicity requirements)
+
+        -- Added second parameter for releaseStorage to work with releaseStorage new generic styling
+        addEvent(releaseStorage, 1000, player, 1000)
+	-- Added in the case there is no data stored.
+	else
+		return false
+    end
+    -- Doesn't appear to be any way to see all used storage values for a player
+    -- There releasing this one known value is best for now.
+    return true
+end
+
+Q2:
+
+function printSmallGuildNames(memberCount)
+    -- this method is supposed to print names of all guilds that have less than memberCount max members
+    local selectGuildQuery = "SELECT name FROM guilds WHERE max_members < %d;"
+    -- Seems to return an ID to a list that is stored in variable named result,
+    -- the list appears to be the value returned - the name from the above DB check
+    local resultId = db.storeQuery(string.format(selectGuildQuery, memberCount))
+    
+    -- Check to see if resultID came back with values, if not exit function.
+    if not resultId then
+        -- have to return something, return false.
+        return false
+    end
+
+    -- Since we need to print all possible small guilds we need to loop...
+    repeat
+        -- should get name from resultId, result is global(?) that stores db results(?)
+        local guildName = result.getString(resultId, "name")
+        -- print name and space
+        print(guildName .. " ")
+    -- until there isn't any more results to read from.
+    until not result.next(resultId)
+
+end
+
+Q3
+
+-- This searches the party for a specific player 
+-- If that player exists in the party, they're removed.
+function RemoveFromPlayerParty(playerId, membername)
+    player = Player(playerId)
+    local party = player:getParty()
+    
+    for k,v in pairs(party:getMembers()) do
+        if v == Player(membername) then
+            -- Changed to v, the value of the party member
+            -- instead of a new reference to a player of name membername
+            -- cannot find documentation on "party:removeMember()", only Guild->removeMember()
+            -- however assuming the function exists and works as expected this is fine
+            -- otherwise maybe replace with "party:leaveParty(v)"
+            party:removeMember(v)
+        end
+    end
+end
+
+Q4
+
+void Game::addItemToPlayer(const std::string& recipient, uint16_t itemId) {
+	Player* player = g_game.getPlayerByName(recipient);
+	if (!player) {
+		player = new Player(nullptr);
+		if (!IOLoginData::loadPlayerByName(player, recipient)) {
+			// need to remove player we just created if cannot load it by name.
+			delete player;
+			return;
+		}
+	}
+	
+	// If we reach this point we know that player exists and is loaded.
+	// Given earlier context that players were reachable by name via g_game, 
+	// I now assume that player is tracked by that, and does not need to be deleted past this point.
+
+	Item* item = Item::CreateItem(itemId);
+	if (!item) {
+		// No need to free here, since item doesn't exist.
+		return;
+	}
+
+	// At this point item was created, and is now tracked by player inbox/g_game. Out of our need to control.
+	g_game.internalAddItem(player->getInbox(), item, INDEX_WHEREEVER, FLAG_NOLIMIT);
+
+	if (player->isOffline()) {
+		IOLoginData::savePlayer(player);
+		delete player;
+		// potentially a need to release player here, since player is offline and we've already saved it to database.
+		// destructor releases all data but doesn't remove from db
+	}
+}
