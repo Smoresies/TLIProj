@@ -23,3 +23,9 @@
 [Tue May 14 14:42:19.736210 2024] [core:notice] [pid 15492:tid 508] AH00094: Command line: 'C:\\TavernlightInterview\\TLIProj\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/TavernlightInterview/TLIProj/UniServerZ/core/apache2 -f C:\\TavernlightInterview\\TLIProj\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\TavernlightInterview\\TLIProj\\UniServerZ\\core\\apache2'
 [Tue May 14 14:42:19.740214 2024] [mpm_winnt:notice] [pid 15492:tid 508] AH00418: Parent: Created child process 22652
 [Tue May 14 14:42:20.077307 2024] [mpm_winnt:notice] [pid 22652:tid 516] AH00354: Child: Starting 150 worker threads.
+[Thu May 16 15:38:58.478580 2024] [core:warn] [pid 14900:tid 428] AH00098: pid file C:/TavernlightInterview/TLIProj/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 16 15:38:58.659249 2024] [mpm_winnt:notice] [pid 14900:tid 428] AH00455: Apache/2.4.58 (Win64) PHP/8.3.0 configured -- resuming normal operations
+[Thu May 16 15:38:58.659249 2024] [mpm_winnt:notice] [pid 14900:tid 428] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Thu May 16 15:38:58.659249 2024] [core:notice] [pid 14900:tid 428] AH00094: Command line: 'C:\\TavernlightInterview\\TLIProj\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/TavernlightInterview/TLIProj/UniServerZ/core/apache2 -f C:\\TavernlightInterview\\TLIProj\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\TavernlightInterview\\TLIProj\\UniServerZ\\core\\apache2'
+[Thu May 16 15:38:58.662252 2024] [mpm_winnt:notice] [pid 14900:tid 428] AH00418: Parent: Created child process 33664
+[Thu May 16 15:38:58.940497 2024] [mpm_winnt:notice] [pid 33664:tid 432] AH00354: Child: Starting 150 worker threads.
