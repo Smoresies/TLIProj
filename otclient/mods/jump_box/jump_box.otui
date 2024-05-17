@@ -1,0 +1,21 @@
+MainWindow
+  id: jumpboxMain
+  size: 235 215
+  @onEnter: modules.jump_box.init()
+  @onEscape: modules.jump_box.closing()
+
+  TabBar
+    id: allTabs
+    anchors.top: parent.top
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    anchors.left: parent.left
+
+  Panel
+    id: optionsTabContent
+    anchors.top: allTabs.top
+    anchors.left: allTabs.left
+    anchors.right: allTabs.right
+    anchors.bottom: allTabs.bottom
+    margin-top: 20
+    margin-bottom: 20

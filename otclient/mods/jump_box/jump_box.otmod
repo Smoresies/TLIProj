@@ -1,0 +1,13 @@
+Module
+  name: jump_box
+  description: Create a box with a scrolling button that says "Jump!" and can be interacted with
+  author: Britton, Gavin
+  website: -
+  
+  autoload: true
+  autoload-priority: 1000
+  sandboxed: true
+  dependencies: [ game_interface ]
+  scripts: [ jump_box ]
+  @onLoad: init()
+  @onUnload: terminate()
